@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.cart {
+  height: 100%;
+  width: 90%;
+  padding: 25px;
+  box-shadow: 0 0 8px 3px rgba(36, 41, 46, 0.2);
+}
+
+.title {
+  display: block;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 45%;
+  font-size: 1rem;
+  border: 0;
+  padding: 10px 30px;
+  background-color: #e5e5e6ff;
+  cursor: pointer
+}
+
+.btn:nth-child(2) {
+  color: #ffffff;
+  background-color: rgb(4, 17, 21);
+}
+
+.added-product {
+  padding: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #dadada;
+  margin: 1.5rem 0;
+}
+
+.delete {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.name-product {
+  display: block;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.price-added-product {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #26b123;
+  padding: 5px 10px;
+  margin-bottom: 0;
+}
+
+.total-cost {
+  margin: 0;
+}
+
+.cost {
+  font-weight: 800;
+}
+
+.products {
+  padding: 0 30px;
+}
+
+.product-card {
+  display: flex;
+}
+
+.card {
+  padding: 0 20px;
+}
+
+.products img {
+  width: 250px;
+  height: 250px;
+}
+
+.amount-products {
+  width: 90%;
+  border: 2px solid #cccccc;
+  border-radius: 0;
+  padding: 10px;
+  margin: 1rem 0;
+}
+
+.amount-products:focus-visible {
+  border: 2px solid #020000;
+  border-radius: 3px;
+  outline: none;
+}
+
+.to-cart {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #008bb9;
+  border: 0;
+  cursor: pointer;
+}
